@@ -1,0 +1,24 @@
+{
+    "name": "mrk/stringutilities",
+    "description": "String conversion tools",
+    "keywords": ["String", "URL", "Slug", "ASCII", "Characters"],
+    "homepage": "https://github.com/mrk-te/stringutilities",
+    "license": "Django Software Foundation",
+    "authors": [
+        {
+            "name": "Marc Teinturier",
+            "email": "m@m-te.fr",
+            "homepage": "https://github.com/mrk-te",
+            "role": "Developer"
+        }
+    ],
+    "version": "0.1",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mrk\\StringUtilities": "src"
+        }
+    }
+}
